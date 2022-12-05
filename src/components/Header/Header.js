@@ -30,7 +30,7 @@ export default function Header() {
       </div>
 
       <div className={styles.header_down}>
-        <h1>Front -end developer test project</h1>
+        <h1>Front-end developer test project</h1>
         <hr />
         <p>
           Your goal is to make a page that looks like this one, and has the ability
