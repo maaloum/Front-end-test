@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Front-end developer test project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> It is a test given by Helpjuice company to evalute the potential candidates' skills.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React JS
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## No Dependencies used
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- live demo: [Click here](https://638e231a0bb60949f832cea3--loquacious-kelpie-392c8a.netlify.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple steps:
 
-### `npm run eject`
+- Copy this link `https://github.com/maaloum/Front-end-test.git`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone https://github.com/maaloum/Front-end-test.git`.
+- Go to the repository folder in your command prompt, run `cd name-of-folder`.
+- Run `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Type these commands into the terminal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- npm run build
+- Open dist/index.html in your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run the application in local environment
 
-## Learn More
+Type this command in your terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- npm run start
+- Your web browser will open on localhost
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run tests
 
-### Code Splitting
+Type this command into the terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- npm run test
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Ely Cheick Maaloum**
 
-### Making a Progressive Web App
+- GitHub: [@Maaloum](https://github.com/maaloum)
+- LinkedIn: [maaloum](https://www.linkedin.com/in/ely-cheikh-maaloum-075a79135/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Microverse
+- [Countries API](https://restcountries.com/v3.1/all).
+- [ Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the amazing [on Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is not licensed.
