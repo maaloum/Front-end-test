@@ -5,9 +5,9 @@
 
 
 ## Built With
-
 - React JS
 - CSS
+-Linters
 
 ## No Dependencies used
 
