@@ -4,13 +4,13 @@ import styles from './pop.module.css';
 import Type from '../../images/icons8-type-80.png';
 
 function PopUp({ isVisible, cordination }) {
-  const show = !isVisible ? 'block' : 'none';
+  const show = isVisible ? 'block' : 'none';
   const style = {
     display: show,
     position: 'absolute',
     left: cordination.x,
     top: cordination.y,
-  };
+  }
   return (
     <div style={style} className={styles.popMenu}>
       <div className={styles.head}>

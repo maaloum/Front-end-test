@@ -14,17 +14,19 @@ export default function Blocks() {
   const [blocks, setBlocks] = useState([]);
   const [tag, setTag] = useState('text');
   const [content, setContent] = useState('');
-  const [popUp, setPopUp] = useState('false');
+  const [popUp, setPopUp] = useState(false);
   const handleChange = (e) => {
     setContent(e.target.value);
     if (e.target.value.includes('/1')) {
-      setPopUp(false);
-    } else {
       setPopUp(true);
+    } else {
+      setPopUp(false);
     }
+
   };
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
+      setPopUp(false);
       if (e.target.value === '/1') {
         setTag('heading');
         setContent('');
